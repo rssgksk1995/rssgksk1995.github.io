@@ -101,7 +101,7 @@ html{
 header{
     color: #fff;    
     text-align: center;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url("/media/gaurav/New Volume/gaurav/cakesAndBakes/resource/assets/cakesAndBakes.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url("https://github.com/rssgksk1995/rssgksk1995.github.io/blob/master/resource/assets/cakesAndBakes.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
