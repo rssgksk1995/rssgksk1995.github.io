@@ -9,7 +9,10 @@ html{
   font-weight:300;
   font-size:20px;
   text-rendering:optimizeLegibility;
-	}
+}
+body{
+  margin: 0px;
+}
 .logo{
   height:75px;
   width:auto;
@@ -101,7 +104,7 @@ html{
 header{
     color: #fff;    
     text-align: center;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url("../assets/cakesAndBakes.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)),url("./assets/cakesAndBakes.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
