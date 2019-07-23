@@ -1,24 +1,111 @@
-<DOCTTYPE >
+<DOCTTYPE>
   <html>
-    <title>Happiness</title>
-    <head>
-      <link rel="stylesheet" href="./resource/css/cakesAndBake.css" >
-      <a href="index.html">Back</a>
-    </head>
-    <body bgcolor="#BEBEBE">
+  <title>Happiness</title>
 
-      <div class="menu-page">
-        <a href=""><img src="./resource/assets/breadImage.svg"></a>
-        <a href=""><img src="./resource/assets/cupCake.png"></a>
-        <a href="cakeList.html"><img src="./resource/assets/cakeImage.svg"></a>
-	<div style="color:blue;  height:800px;  margin-left:30px;">	
-	<img src="./resource/assets/leftBranch.png">
-	<img src="./resource/assets/centerBranch.png">
-	<img src="./resource/assets/rightBranch.png">
-	</div>
-      <div>
-     <footer>
-        
-     </footer>
-    </body>
+  <head>
+    <link rel="stylesheet" href="./resource/css/cakesAndBake.css">
+    <a href="index.html"><img class="menu-logo" src="./resource/assets/logo.png"></a>
+    <style>
+    body {
+      background-image:url("./resource/assets/menu-page-background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .menu-logo{
+      height:75px;
+      width:auto;
+      border-radius:70%;
+    }
+    .container {
+      position: relative;
+      width: auto;
+      margin-left: 120px;
+    }
+    .menu-type {
+      /* display: block;
+      width: 100%;
+      height: auto; */
+      width: 150px;
+      height: 150px;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: pink;
+      border-radius:20%;
+
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .text {
+      color: black;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    .menu-page-body{
+      display: flex;
+      
+      margin-left: 30px;
+      /* margin-top: 100px; */
+    }
+    </style>
+  </head>
+
+  <body >
+    <div class="menu-page-body">
+      <div class="container">
+        <a href=""><img class="menu-type" src="./resource/assets/cookies.png"></a>
+        <a href="Cookies.html">
+            <div class="overlay">
+              <div class="text">Cookies</div>
+            </div>
+          </a>
+      </div>
+
+
+      <div class="container">
+        <a href=""><img class="menu-type" src="./resource/assets/cupcake1.png"></a>
+        <a href="cupCakes.html">
+            <div class="overlay">
+              <div class="text">Cup Cakes</div>
+            </div>
+          </a>
+      </div>
+
+
+      <div class="container">
+        <img class="menu-type" src="./resource/assets/cake5.png">
+        <a href="cakeList.html">
+          <div class="overlay">
+            <div class="text">Cake</div>
+          </div>
+        </a>
+      </div>
+      
+
+      
+      
+      
+    </div>
+        <footer>
+
+        </footer>
+  </body>
+
   </html>
