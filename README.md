@@ -1,6 +1,6 @@
-https://dreamy-aryabhata-956e4c.netlify.app/
+https://fund-analysis.netlify.app/
 
-https://bespoke-gumption-c97a66.netlify.app/
+https://dreamy-aryabhata-956e4c.netlify.app/
 
 https://covid-list.netlify.app/
 
